@@ -12,7 +12,7 @@
 	String myemail =request.getParameter("myemail");
 	String myage =request.getParameter("myage");
 	
-//2 empvo 멤버변수에 지정
+//2 empvo 멤버변수에 지정   
 	memberVO vo=new memberVO();
 	vo.setName(realname);
 	vo.setEname(nickname);
